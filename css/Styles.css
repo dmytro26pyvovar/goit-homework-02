@@ -151,7 +151,7 @@ body {
 }
 
 /**-----------------Portfolio------------------*/
-
+/**-----------------Links--------------------- */
 .main-link {
   font-family: "Roboto";
   font-style: normal;
@@ -171,6 +171,8 @@ body {
   letter-spacing: 0.04em;
   color: #4d5ae5;
   text-decoration: none;
+
+  /**-----------------Sections--------------------- */
 }
 .application-subtitle {
   font-family: "Roboto";
