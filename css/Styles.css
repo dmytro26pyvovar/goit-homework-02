@@ -1,5 +1,6 @@
 :root {
   --white-color: #ffffff;
+  --black-color: #2e2f42;
 }
 
 body {
@@ -150,3 +151,42 @@ body {
 }
 
 /**-----------------Portfolio------------------*/
+
+.main-link {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+  color: var(--white-color);
+  text-decoration: none;
+}
+.menu-links {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+  color: #4d5ae5;
+  text-decoration: none;
+}
+.application-subtitle {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+  color: var(--black-color);
+}
+.application-text {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: var(--black-color);
+}
