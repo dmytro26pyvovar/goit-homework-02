@@ -5,7 +5,7 @@
 body {
   font-family: "Roboto", sans-serif;
 }
-/** -----------------Header ------------------*/
+/**-----------------Header------------------*/
 
 .header-logo {
   font-family: "Raleway";
@@ -40,7 +40,7 @@ body {
   text-decoration: none;
 }
 
-/** -----------------Main Hero ------------------*/
+/**-----------------Main Hero------------------*/
 
 .hero-title {
   font-family: "Roboto";
@@ -61,7 +61,7 @@ body {
   color: var(--white-color);
 }
 
-/** -----------------Features ------------------*/
+/**-----------------Features------------------*/
 
 .features-subtitle {
   font-family: "Roboto";
@@ -82,7 +82,7 @@ body {
   color: #434455;
 }
 
-/** -----------------What are we doing ------------------*/
+/**-----------------What are we doing------------------*/
 
 .doing-title {
   font-family: "Roboto";
@@ -95,7 +95,7 @@ body {
   color: #2e2f42;
 }
 
-/** -----------------Team------------------*/
+/**-----------------Team------------------*/
 
 .team-title {
   font-family: "Roboto";
@@ -126,7 +126,7 @@ body {
   color: #434455;
 }
 
-/** -----------------Footer------------------*/
+/**-----------------Footer------------------*/
 
 .footer-link {
   font-family: "Raleway";
@@ -149,4 +149,4 @@ body {
   color: #f4f4fd;
 }
 
-/** -----------------Portfolio------------------*/
+/**-----------------Portfolio------------------*/
