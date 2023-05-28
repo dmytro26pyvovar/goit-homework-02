@@ -52,6 +52,9 @@ body {
 }
 
 /**-----------------Main Hero------------------*/
+.hero{
+  background-color: var(--grey-color);
+}
 
 .hero-title {
   font-family: "Roboto";
@@ -61,6 +64,7 @@ body {
   line-height: 1.07;
   letter-spacing: 0.02em;
   color: var(--white-color);
+  text-align: center;
 }
 .hero-btn {
   font-family: "Roboto";
@@ -162,13 +166,6 @@ body {
 
 /**-----------------Portfolio------------------*/
 /**-----------------Links--------------------- */
-
-.links{
-background-color:var(--grey-color) ;
-}
-.links-title{
-  text-align: center;
-}
 .main-link {
   font-family: "Roboto";
   font-style: normal;
