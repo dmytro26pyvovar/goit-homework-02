@@ -56,7 +56,7 @@ body {
 
 /**-----------------Main Hero------------------*/
 .hero {
-  background-color: var(--grey-color);
+  background-color: var(--black-color);
 }
 
 .hero-title {
