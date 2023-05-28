@@ -59,6 +59,10 @@ a {
 .header-adress {
   font-style: normal;
 }
+.header-menu-item:hover,
+.header-menu-item:hover {
+  color: #404bbf;
+}
 
 /**-----------------Main Hero------------------*/
 .hero {
