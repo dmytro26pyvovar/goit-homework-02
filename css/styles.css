@@ -12,6 +12,9 @@ body {
   color: #434455;
   background-color: var(--white-color);
 }
+.list {
+  list-style: none;
+}
 /**-----------------Header------------------*/
 
 .header-logo {
