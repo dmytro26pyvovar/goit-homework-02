@@ -53,6 +53,9 @@ body {
   color: #434455;
   text-decoration: none;
 }
+.header-adress {
+  font-style: normal;
+}
 
 /**-----------------Main Hero------------------*/
 .hero {
