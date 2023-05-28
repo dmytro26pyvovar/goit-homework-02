@@ -2,6 +2,7 @@
   --white-color: #ffffff;
   --black-color: #2e2f42;
   --blue-color:  #4D5AE5;
+  --grey-color:  #2e2f42;
 }
 
 body {
@@ -161,6 +162,13 @@ body {
 
 /**-----------------Portfolio------------------*/
 /**-----------------Links--------------------- */
+
+.links{
+background-color:var(--grey-color) ;
+}
+.links-title{
+  text-align: center;
+}
 .main-link {
   font-family: "Roboto";
   font-style: normal;
