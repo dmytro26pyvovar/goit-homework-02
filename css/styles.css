@@ -59,8 +59,8 @@ a {
 .header-adress {
   font-style: normal;
 }
-.header-menu-item:hover,
-.header-menu-item:hover {
+.header-menu-link:hover,
+.header-menu-link:focus {
   color: #404bbf;
 }
 
