@@ -21,6 +21,9 @@ body {
   color: #2e2f42;
   text-decoration: none;
 }
+.header-logo span{
+  color: #4D5AE5;
+}
 
 .header-menu-link {
   font-family: "Roboto";
