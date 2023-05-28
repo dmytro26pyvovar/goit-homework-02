@@ -11,6 +11,12 @@ body {
   color: #434455;
   background-color: var(--white-color);
 }
+a {
+  text-decoration: none;
+}
+.link {
+  text-decoration: none;
+}
 /**-----------------Header------------------*/
 
 .header-logo {
@@ -22,12 +28,6 @@ body {
   letter-spacing: 0.03em;
   text-transform: uppercase;
   color: var(--blue-color);
-}
-a {
-  text-decoration: none;
-}
-.link {
-  text-decoration: none;
 }
 .header-logo span {
   color: var(--black-color);
@@ -86,7 +86,8 @@ a {
   background-color: #4d5ae5;
   cursor: pointer;
 }
-.hero-btn:is(:hover, :focus) {
+.hero-btn:hover,
+.hero-btn:focus {
   color: #404bbf;
 }
 
