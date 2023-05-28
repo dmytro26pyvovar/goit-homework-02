@@ -63,7 +63,7 @@ body {
 }
 
 .hero-title {
-  font-family: "Roboto";
+  font-family: "Roboto", sans-serif;
   font-style: normal;
   font-weight: 700;
   font-size: 56px;
@@ -91,7 +91,7 @@ body {
 .features-list {
 }
 .features-subtitle {
-  font-family: "Roboto";
+  font-family: "Roboto", sans-serif;
   font-style: normal;
   font-weight: 500;
   font-size: 20px;
@@ -100,7 +100,7 @@ body {
   color: #2e2f42;
 }
 .features-menu-text {
-  font-family: "Roboto";
+  font-family: "Roboto", sans-serif;
   font-style: normal;
   font-weight: 400;
   font-size: 16px;
@@ -112,7 +112,7 @@ body {
 /**-----------------What are we doing------------------*/
 
 .doing-title {
-  font-family: "Roboto";
+  font-family: "Roboto", sans-serif;
   font-style: normal;
   font-weight: 700;
   font-size: 36px;
@@ -130,7 +130,7 @@ body {
 }
 
 .team-title {
-  font-family: "Roboto";
+  font-family: "Roboto", sans-serif;
   font-style: normal;
   font-weight: 500;
   font-size: 36px;
@@ -144,7 +144,7 @@ body {
   background-color: #ffffff;
 }
 .team-subtitle {
-  font-family: "Roboto";
+  font-family: "Roboto", sans-serif;
   font-style: normal;
   font-weight: 500;
   font-size: 20px;
@@ -154,7 +154,7 @@ body {
   text-align: center;
 }
 .team-menu-text {
-  font-family: "Roboto";
+  font-family: "Roboto", sans-serif;
   font-style: normal;
   font-weight: 400;
   font-size: 16px;
@@ -180,7 +180,7 @@ body {
   text-decoration: none;
 }
 .footer-text {
-  font-family: "Roboto";
+  font-family: "Roboto", sans-serif;
   font-style: normal;
   font-weight: 400;
   font-size: 16px;
@@ -193,7 +193,7 @@ body {
 
 /**-----------------Sections--------------------- */
 .main-button {
-  font-family: "Roboto";
+  font-family: "Roboto", sans-serif;
   font-style: normal;
   font-weight: 500;
   font-size: 16px;
@@ -202,7 +202,7 @@ body {
   color: #ffffff;
 }
 .button {
-  font-family: "Roboto";
+  font-family: "Roboto", sans-serif;
   font-style: normal;
   font-weight: 500;
   font-size: 16px;
