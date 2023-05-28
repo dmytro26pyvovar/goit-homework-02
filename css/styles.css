@@ -20,7 +20,9 @@ body {
   line-height: 1.17;
   letter-spacing: 0.03em;
   text-transform: uppercase;
-  color: #2e2f42;
+  color: var(--blue-color);
+}
+.link{
   text-decoration: none;
 }
 .header-logo span{
@@ -156,6 +158,9 @@ background-color: #F4F4FD;
 }
 
 /**-----------------Footer------------------*/
+.footer{
+  background-color: var(--grey-color);
+}
 
 .footer-link {
   font-family: "Raleway";
