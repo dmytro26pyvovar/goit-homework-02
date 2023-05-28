@@ -1,6 +1,7 @@
 :root {
   --white-color: #ffffff;
   --black-color: #2e2f42;
+  --blue-color:  #4D5AE5;
 }
 
 body {
@@ -22,7 +23,7 @@ body {
   text-decoration: none;
 }
 .header-logo span{
-  color: #4D5AE5;
+  color: var(--blue-color);
 }
 
 .header-menu-link {
