@@ -86,7 +86,9 @@ body {
 }
 
 /**-----------------Features------------------*/
-
+.features-list {
+  list-style: none;
+}
 .features-subtitle {
   font-family: "Roboto";
   font-style: normal;
@@ -107,6 +109,9 @@ body {
 }
 
 /**-----------------What are we doing------------------*/
+.doing-list {
+  list-style: none;
+}
 
 .doing-title {
   font-family: "Roboto";
@@ -121,6 +126,9 @@ body {
 }
 
 /**-----------------Team------------------*/
+.team-list {
+  list-style: none;
+}
 
 .team {
   background-color: #f4f4fd;
@@ -213,7 +221,7 @@ body {
   color: #ffffff;
   background-color: #404bbf;
 }
-.list {
+.application-list {
   list-style: none;
 }
 .application-subtitle {
