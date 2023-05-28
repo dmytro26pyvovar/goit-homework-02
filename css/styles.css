@@ -23,6 +23,9 @@ body {
   text-transform: uppercase;
   color: var(--blue-color);
 }
+a {
+  text-decoration: none;
+}
 .link {
   text-decoration: none;
 }
