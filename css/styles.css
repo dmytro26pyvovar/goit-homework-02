@@ -63,6 +63,10 @@ a {
 .header-menu-link:focus {
   color: #404bbf;
 }
+.header-contact-link:hover,
+.header-contact-link:focus {
+  color: #404bbf;
+}
 
 /**-----------------Main Hero------------------*/
 .hero {
