@@ -248,3 +248,6 @@ a {
 .application-menu-link {
   text-decoration: none;
 }
+.header-logo span {
+  color: #f4f4fd;
+}
