@@ -44,6 +44,9 @@ body {
   color: #2e2f42;
   text-decoration: none;
 }
+.header-menu-link {
+  color: var(--grey-color);
+}
 .list {
   list-style: none;
 }
