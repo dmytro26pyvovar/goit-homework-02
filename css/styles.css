@@ -35,6 +35,9 @@ body {
   color: #2e2f42;
   text-decoration: none;
 }
+.list{
+  list-style: none;
+}
 .header-contact-link {
   font-family: "Roboto";
   font-style: normal;
