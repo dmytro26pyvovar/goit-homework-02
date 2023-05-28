@@ -223,7 +223,7 @@ body {
   font-size: 20px;
   line-height: 1.2px;
   letter-spacing: 0.02em;
-  color: var(--grey-colors);
+  color: var(--grey-color);
 }
 .application-text {
   font-family: "Roboto";
