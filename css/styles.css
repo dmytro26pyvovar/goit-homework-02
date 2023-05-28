@@ -248,16 +248,3 @@ a {
 .application-menu-link {
   text-decoration: none;
 }
-.footer-logo {
-  font-family: "Raleway" sans-serif;
-  font-style: normal;
-  font-weight: 800;
-  font-size: 18px;
-  line-height: 1.17;
-  letter-spacing: 0.03em;
-  text-transform: uppercase;
-  color: var(--blue-color);
-}
-.footer-logo span {
-  color: #f4f4fd;
-}
