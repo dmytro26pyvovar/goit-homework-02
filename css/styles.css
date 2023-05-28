@@ -144,7 +144,7 @@ a {
 .team-title {
   font-family: "Roboto", sans-serif;
   font-style: normal;
-  font-weight: 500;
+  font-weight: 700;
   font-size: 36px;
   line-height: 1.11;
   letter-spacing: 0.02em;
@@ -163,7 +163,6 @@ a {
   line-height: 1.2;
   letter-spacing: 0.02em;
   color: var(--black-color);
-  text-align: center;
 }
 .team-menu-text {
   font-family: "Roboto", sans-serif;
