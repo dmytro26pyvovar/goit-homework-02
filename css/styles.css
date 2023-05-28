@@ -132,6 +132,9 @@ background-color: #FFFFFF;
   text-transform: capitalize;
   color: #2e2f42;
 }
+.team-menu-item{
+  background-color: #FFFFFF ;
+}
 .team-subtitle {
   font-family: "Roboto";
   font-style: normal;
