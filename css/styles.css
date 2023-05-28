@@ -3,6 +3,7 @@
   --black-color: #2e2f42;
   --blue-color: #4d5ae5;
   --grey-color: #2e2f42;
+  --light-color: #f4f4fd;
 }
 
 body {
@@ -204,6 +205,12 @@ body {
   line-height: 1.5;
   letter-spacing: 0.04em;
   color: #4d5ae5;
+  background-color: var(--light-color);
+  cursor: pointer;
+}
+.button:is(:hover, :focus) {
+  color: #ffffff;
+  background-color: #404bbf;
 }
 
 .application-subtitle {
