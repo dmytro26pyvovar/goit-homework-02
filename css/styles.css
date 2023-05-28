@@ -34,7 +34,7 @@ body {
   color: var(--blue-color);
 }
 
-.header-menu-link {
+.header-menu-item {
   font-family: "Roboto" sans-serif;
   font-style: normal;
   font-weight: 500;
@@ -47,7 +47,7 @@ body {
 .list {
   list-style: none;
 }
-.header-contact-link {
+.header-contact-item {
   font-family: "Roboto" sans-serif;
   font-style: normal;
   font-weight: 400;
