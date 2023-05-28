@@ -1,13 +1,13 @@
 :root {
   --white-color: #ffffff;
   --black-color: #2e2f42;
-  --blue-color:  #4D5AE5;
-  --grey-color:  #2e2f42;
+  --blue-color: #4d5ae5;
+  --grey-color: #2e2f42;
 }
 
 body {
-  font-family: 'Roboto', sans-serif;
-  color: #434455;  
+  font-family: "Roboto", sans-serif;
+  color: #434455;
   background-color: var(--white-color);
 }
 /**-----------------Header------------------*/
@@ -22,10 +22,10 @@ body {
   text-transform: uppercase;
   color: var(--blue-color);
 }
-.link{
+.link {
   text-decoration: none;
 }
-.header-logo span{
+.header-logo span {
   color: var(--blue-color);
 }
 
@@ -39,7 +39,7 @@ body {
   color: #2e2f42;
   text-decoration: none;
 }
-.list{
+.list {
   list-style: none;
 }
 .header-contact-link {
@@ -54,7 +54,7 @@ body {
 }
 
 /**-----------------Main Hero------------------*/
-.hero{
+.hero {
   background-color: var(--grey-color);
 }
 
@@ -76,11 +76,11 @@ body {
   line-height: 1.5;
   letter-spacing: 0.04em;
   color: var(--white-color);
-  background-color: #4D5AE5; 
-  cursor: pointer; 
+  background-color: #4d5ae5;
+  cursor: pointer;
 }
 .hero-btn:is(:hover, :focus) {
-  color: #404BBF;
+  color: #404bbf;
 }
 
 /**-----------------Features------------------*/
@@ -120,8 +120,8 @@ body {
 
 /**-----------------Team------------------*/
 
-.team{
-background-color: #F4F4FD;
+.team {
+  background-color: #f4f4fd;
 }
 
 .team-title {
@@ -135,8 +135,8 @@ background-color: #F4F4FD;
   color: var(--grey-color);
   text-align: center;
 }
-.team-menu-item{
-  background-color: #FFFFFF ;
+.team-menu-item {
+  background-color: #ffffff;
 }
 .team-subtitle {
   font-family: "Roboto";
@@ -159,7 +159,7 @@ background-color: #F4F4FD;
 }
 
 /**-----------------Footer------------------*/
-.footer{
+.footer {
   background-color: var(--grey-color);
 }
 
@@ -185,18 +185,18 @@ background-color: #F4F4FD;
 }
 
 /**-----------------Portfolio------------------*/
-/**-----------------Links--------------------- */
-.main-link {
+
+/**-----------------Sections--------------------- */
+.main-button {
   font-family: "Roboto";
   font-style: normal;
   font-weight: 500;
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.04em;
-  color: var(--white-color);
-  text-decoration: none;
+  color: #ffffff;
 }
-.menu-links {
+.button {
   font-family: "Roboto";
   font-style: normal;
   font-weight: 500;
@@ -204,10 +204,8 @@ background-color: #F4F4FD;
   line-height: 1.5;
   letter-spacing: 0.04em;
   color: #4d5ae5;
-  text-decoration: none;
-
-  /**-----------------Sections--------------------- */
 }
+
 .application-subtitle {
   font-family: "Roboto";
   font-style: normal;
@@ -226,4 +224,3 @@ background-color: #F4F4FD;
   letter-spacing: 0.02em;
   color: var(--black-color);
 }
-
