@@ -56,7 +56,6 @@ ul {
 }
 .header-container {
   display: flex;
-  align-items: center;
 }
 
 .header-logo {
@@ -79,16 +78,18 @@ ul {
 .header-navigation {
   display: flex;
   align-items: center;
-  flex-grow: 1;
 }
 
 .header-menu {
   display: flex;
-  margin-right: 341px;
+  margin-left: 76px;
+  gap: 40px;
 }
 
 .header-contact {
   display: flex;
+  margin-left: 332px;
+  gap: 40px;
 }
 
 .header-menu-link {
