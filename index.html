@@ -11,30 +11,37 @@
         href="https://fonts.googleapis.com/css2?family=Raleway:wght@200;300;400;500;600;700;800&family=Roboto:wght@400;500;700&display=swap"
         rel="stylesheet">
     <title>Web Studio (Vesion 3.0)</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/2.0.0/modern-normalize.min.css"
+        integrity="sha512-4xo8blKMVCiXpTaLzQSLSw3KFOVPWhm/TRtuPVc4WG6kUgjH6J03IBuG7JZPkcWMxJ5huwaBpOpnwYElP/m6wg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link rel="stylesheet" href="./css/styles.css">
 </head>
 
 <body>
     <header class="header">
-        <nav class="header-navigation">
+        <div class="container header-container">
+            <nav class="header-navigation">
 
-            <a href="./index.html" class="header-logo link">Web<span class="logo">Studio</span></a>
-            <ul class="list">
-                <li class="header-menu-item"><a class="header-menu-link link" href="./index.html">Studio</a></li>
-                <li class="header-menu-item"><a class="header-menu-link link" href="./portfolio.html">Portfolio</a></li>
-                <li class="header-menu-item"><a class="header-menu-link link" href="">Contacts</a></li>
-            </ul>
+                <a href="./index.html" class="header-logo link">Web<span class="logo">Studio</span></a>
+                <ul class="header-menu list">
+                    <li class="header-menu-item"><a class="header-menu-link link" href="./index.html">Studio</a></li>
+                    <li class="header-menu-item"><a class="header-menu-link link" href="./portfolio.html">Portfolio</a>
+                    </li>
+                    <li class="header-menu-item"><a class="header-menu-link link" href="">Contacts</a></li>
+                </ul>
 
 
-        </nav>
-        <address class="header-adress">
-            <ul class="list">
-                <li class="header-contact-item"><a class="header-contact-link link"
-                        href="mailto:info@devstudio.com">info@devstudio.com</a></li>
-                <li class="header-contact-item"><a class="header-contact-link link" href="tel:+110001111111">+11 (000)
-                        111-11-11</a></li>
-            </ul>
-        </address>
+            </nav>
+            <address class="header-adress">
+                <ul class="header-contact list">
+                    <li class="header-contact-item"><a class="header-contact-link link"
+                            href="mailto:info@devstudio.com">info@devstudio.com</a></li>
+                    <li class="header-contact-item"><a class="header-contact-link link" href="tel:+110001111111">+11
+                            (000)
+                            111-11-11</a></li>
+                </ul>
+            </address>
+        </div>
     </header>
     <main>
         <section class="hero">
