@@ -305,6 +305,10 @@ padding-bottom: 24px;
   text-align: center;
   margin-bottom: 8px;
 }
+
+.worker-container{
+  padding: 32px 16px;
+}
 .team-menu-text {
   font-family: "Roboto", sans-serif;
   font-style: normal;
