@@ -93,6 +93,11 @@ img {
   gap: 40px;
 }
 
+.header-menu-link{
+padding-top: 24px;
+padding-bottom: 24px;
+}
+
 .header-contact {
   display: flex;
   margin-left: 332px;
