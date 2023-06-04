@@ -4,6 +4,7 @@
   --blue-color: #4d5ae5;
   --light-color: #f4f4fd;
   --text-color: #434455;
+  --button-color: #e7e9fc;
 }
 
 body {
@@ -378,6 +379,7 @@ padding-bottom: 24px;
   padding-top: 96px;
   padding-bottom: 120px;
 }
+
 .button {
   font-family: "Roboto", sans-serif;
   font-style: normal;
@@ -391,6 +393,10 @@ padding-bottom: 24px;
   border-style: none;
   border-radius: 4px;
   padding: 12px 24px;
+  border: 1px solid var(--button-color);
+}
+.button:hover, :focus{
+  border: 1px solid transparent;
 }
 
 .buttons-menu {
@@ -414,9 +420,12 @@ padding-bottom: 24px;
 .application-menu {
   display: flex;
   flex-wrap: wrap;
-  gap: 24px;
+  row-gap: 48px;
   margin-left: 156px;
   margin-bottom: 120px;
+  justify-content: center;
+  margin-bottom: 72px;
+  
 }
 
 .application-menu-item {
