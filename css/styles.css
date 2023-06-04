@@ -211,8 +211,9 @@ padding-bottom: 24px;
 
 .features-menu-item {
   gap: 24px;
-  width: calc((100% - 72) / 4);
+  width: calc((100% - 72px) / 4);
 }
+
 .features-menu-text {
   font-family: "Roboto", sans-serif;
   font-style: normal;
