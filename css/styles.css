@@ -374,6 +374,10 @@ padding-bottom: 24px;
 
 /**-----------------Sections--------------------- */
 
+.links{
+  padding-top: 96px;
+  padding-bottom: 120px;
+}
 .button {
   font-family: "Roboto", sans-serif;
   font-style: normal;
