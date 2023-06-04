@@ -421,6 +421,7 @@ padding-bottom: 24px;
   display: flex;
   flex-wrap: wrap;
   row-gap: 48px;
+  column-gap: 24px;
   margin-left: 156px;
   margin-bottom: 120px;
   justify-content: center;
