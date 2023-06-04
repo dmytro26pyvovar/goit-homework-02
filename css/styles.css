@@ -34,6 +34,10 @@ ul {
   padding-left: 0;
 }
 
+img {
+  display: block;
+}
+
 .link {
   text-decoration: none;
 }
@@ -223,8 +227,6 @@ ul {
   text-transform: capitalize;
   color: #2e2f42;
   text-align: center;
-  max-width: 323px;
-  margin: 0 auto;
   margin-bottom: 120px;
 }
 .doing-menu-item {
@@ -281,6 +283,7 @@ ul {
   line-height: 1.2;
   letter-spacing: 0.02em;
   color: var(--black-color);
+  padding: 32px 65px 64px 65px;
 }
 .team-menu-text {
   font-family: "Roboto", sans-serif;
@@ -290,11 +293,16 @@ ul {
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: #434455;
+  padding: 8px 68px 32px 68px;
 }
 
 /**-----------------Footer------------------*/
 .footer {
   background-color: var(--black-color);
+  padding-top: 100px;
+  padding-right: 1020px;
+  padding-bottom: 100px;
+  padding-left: 156px;
 }
 
 .footer-logo {
@@ -306,7 +314,6 @@ ul {
   letter-spacing: 0.03em;
   text-transform: uppercase;
   color: #4d5ae5;
-  padding-top: 101.5px;
 }
 .footer-logo span {
   color: #f4f4fd;
@@ -331,31 +338,17 @@ ul {
   letter-spacing: 0.02em;
   color: #f4f4fd;
   max-width: 264px;
-  margin-top: 17.5px;
+  margin-top: 16px;
 }
 
-.footer-container {
-  padding: 140px 1169px 100px 200px;
+.footer-top {
+  margin-left: 156px;
 }
 
 /**-----------------Portfolio------------------*/
 
 /**-----------------Sections--------------------- */
-.main-button {
-  font-family: "Roboto", sans-serif;
-  font-style: normal;
-  font-weight: 500;
-  font-size: 16px;
-  line-height: 1.5;
-  letter-spacing: 0.04em;
-  color: #ffffff;
-  border-style: none;
-  border-radius: 4px;
-  padding: 12px 24px;
-  margin-top: 120px;
-  margin-bottom: 72px;
-  margin-left: 156px;
-}
+
 .button {
   font-family: "Roboto", sans-serif;
   font-style: normal;
@@ -369,10 +362,12 @@ ul {
   border-style: none;
   border-radius: 4px;
   padding: 12px 24px;
-  margin-top: 120px;
-  margin-bottom: 72px;
-  margin-left: 156px;
 }
+
+.buttons-menu {
+  margin-left: 427px;
+}
+
 .button:is(:hover, :focus) {
   color: #ffffff;
   background-color: #404bbf;
@@ -392,6 +387,11 @@ ul {
   flex-wrap: wrap;
   gap: 24px;
   margin-left: 156px;
+  margin-bottom: 120px;
+}
+
+.application-menu-item {
+  max-width: 360px;
 }
 
 .list {
