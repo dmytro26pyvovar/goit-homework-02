@@ -302,6 +302,8 @@ padding-bottom: 24px;
   letter-spacing: 0.02em;
   color: var(--black-color);
   padding: 32px 65px 64px 65px;
+  text-align: center;
+  margin-bottom: 8px;
 }
 .team-menu-text {
   font-family: "Roboto", sans-serif;
