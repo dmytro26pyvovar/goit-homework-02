@@ -208,6 +208,7 @@ padding-bottom: 24px;
 }
 .features-menu {
   display: flex;
+  gap: 24px;
 }
 
 .features-menu-item {
