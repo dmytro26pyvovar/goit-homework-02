@@ -254,7 +254,7 @@ border-radius: 4px;
 }
 
 .features-icons{
-  
+  align-items: center;
 }
 
 /**-----------------What are we doing------------------*/
