@@ -118,6 +118,7 @@ padding-bottom: 24px;
   letter-spacing: 0.02em;
   color: #2e2f42;
   text-decoration: none;
+  transition: color 300ms linear;
 }
 
 .header-contact-link {
