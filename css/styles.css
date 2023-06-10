@@ -446,6 +446,44 @@ background-color: #4D5AE5;
   fill: #ffffff;
 }
 
+.customers{
+  padding-top: 120px;
+  padding-bottom: 120px;
+}
+
+.customers-title{
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 40px;
+  text-align: center;
+  letter-spacing: 0.02em;
+  text-transform: capitalize;
+  color: #2E2F42;
+  
+}
+
+.customers-container{
+  width: 1128px;
+  height:88px;
+  display: flex; 
+}
+
+.customers-list{
+  display: flex;
+  gap: 24px;
+}
+
+.customers-icon-container{
+  width: 168px;
+  height: 88px;
+  border: 1px solid;
+  border-radius: 4px;
+  margin-top: 72px;
+  margin-bottom: 120px;
+}
+
 /**-----------------Portfolio------------------*/
 
 /**-----------------Sections--------------------- */
