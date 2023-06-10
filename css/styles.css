@@ -52,7 +52,7 @@ img {
 
 .container {
   width: 100%;
-  max-width: 1158px;
+  max-width: 1440px;
   padding-left: 15px;
   padding-right: 15px;
   margin: 0 auto;
@@ -246,15 +246,9 @@ padding-bottom: 24px;
 .features-icon-container{
 width: 264px;
 height:112px;
-position: absolute;
-left: 0px;
-top: 0px;
 background-color: #F4F4FD;
 border-radius: 4px;
-}
-
-.features-icons{
-  align-items: center;
+margin-bottom: 8px;
 }
 
 /**-----------------What are we doing------------------*/
@@ -353,6 +347,34 @@ border-radius: 4px;
   text-align: center;
 }
 
+.team-icons-container{
+  width:232px;
+  height:40px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 0px;
+  margin-top: 8px;
+}
+
+.team-menu-icon{
+  width:40px;
+  height:40px;
+  border-radius: 50%;
+  background-color: #4D5AE5;
+  
+}
+
+.team-menu-icons{
+  display: flex;
+  gap: 24px;
+}
+
+.team-icon{
+  fill: #ffffff;
+}
+
 /**-----------------Footer------------------*/
 .footer {
   background-color: var(--black-color);
@@ -400,6 +422,28 @@ border-radius: 4px;
 
 .footer-top {
   margin-left: 156px;
+}
+
+.footer-icons-container{
+  width:208px;
+  height:40px;
+}
+
+.footer-social-media-list{
+display: flex;
+gap: 24px;
+}
+
+.footer-social-media-item{
+width:40px;
+height:40px;
+border-radius: 50%;
+background-color: #4D5AE5;
+
+}
+
+.footer-icon{
+  fill: #ffffff;
 }
 
 /**-----------------Portfolio------------------*/
