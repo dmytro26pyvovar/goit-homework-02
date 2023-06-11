@@ -489,6 +489,7 @@ img {
   letter-spacing: 0.02em;
   text-transform: capitalize;
   color: #2e2f42;
+  margin-bottom: 72px;
 }
 
 .customers-container {
@@ -500,6 +501,11 @@ img {
 .customers-list {
   display: flex;
   gap: 24px;
+}
+
+.customers-item {
+  width: calc((100% - 120px) / 6);
+  height: 88px;
 }
 
 .customers-icon-container {
