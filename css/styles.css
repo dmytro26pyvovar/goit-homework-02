@@ -254,6 +254,9 @@ img {
 }
 
 .features-icon-container{
+display: flex;
+align-items: center;
+justify-content: center;
 width: 264px;
 height:112px;
 background-color: #F4F4FD;
