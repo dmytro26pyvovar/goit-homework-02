@@ -347,7 +347,16 @@ margin-bottom: 8px;
 }
 
 .worker-container{
-  padding: 32px 16px;
+  padding: 32px 0px;
+  width:232px;
+  height:40px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding-top:32px;
+  padding-bottom: 32px;
+  margin-top: 8px;
 }
 .team-menu-text {
   font-family: "Roboto", sans-serif;
