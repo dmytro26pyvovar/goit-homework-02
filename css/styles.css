@@ -148,7 +148,6 @@ img {
   padding-top: 188px;
   padding-bottom: 188px;
   background-image: linear-gradient(
-    to right,
     rgba(46, 47, 66, 0.7),
     rgba(46, 47, 66, 0.7)
   ),
@@ -161,9 +160,6 @@ img {
   max-width: 1440px;
   margin: auto;
  
-}
-.hero-container {
-  
 }
 
 .hero-title {
