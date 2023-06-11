@@ -401,7 +401,7 @@ img {
 }
 
 .team-icon {
-  fill: #ffffff;
+  fill: var(--light-color);
 }
 
 /**-----------------Footer------------------*/
