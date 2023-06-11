@@ -63,6 +63,7 @@ img {
   padding-top: 25.5px;
   padding-bottom: 25.5px;
   border-bottom: 1px solid #e7e9fc;
+  box-shadow: 0px 2px 1px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 1px 6px rgba(46, 47, 66, 0.08);;
 }
 .header-container {
   display: flex;
@@ -101,6 +102,9 @@ img {
 .header-menu-link{
 padding-top: 24px;
 padding-bottom: 24px;
+position: relative;
+color: #404bbf;
+transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .header-contact {
@@ -130,7 +134,7 @@ padding-bottom: 24px;
   letter-spacing: 0.02em;
   color: #434455;
   text-decoration: none;
-  transition: color 300ms linear;
+  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .header-adress {
   font-style: normal;
@@ -148,10 +152,6 @@ padding-bottom: 24px;
 .hero {
   padding-top: 188px;
   padding-bottom: 188px;
-}
-.hero-container {
-  background-color: var(--black-color);
-  padding: 188px 472px 292px 472px;
   background-image: linear-gradient(
     to right,
     rgba(46, 47, 66, 0.7),
@@ -161,6 +161,14 @@ padding-bottom: 24px;
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
+  background-color: var(--black-color);
+  padding: 188px 472px 292px 472px;
+  max-width: 1440px;
+  margin: auto;
+ 
+}
+.hero-container {
+  
 }
 
 .hero-title {
@@ -192,7 +200,7 @@ padding-bottom: 24px;
   margin-top: 48px;
   margin-left: 156px;
   display: block;
-  transition: background-color 300ms linear;
+  transition:  background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .hero-btn:hover,
 .hero-btn:focus {
