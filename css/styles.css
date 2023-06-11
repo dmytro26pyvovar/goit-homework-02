@@ -552,8 +552,13 @@ img {
   justify-content: center;
 }
 
+.footer-link:hover,
+:focus {
+  background-color: #31d0aa;
+}
+
 .footer-icon {
-  fill: #ffffff;
+  fill: var(--light-color);
 }
 
 /**-----------------Portfolio------------------*/
