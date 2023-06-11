@@ -607,9 +607,6 @@ img {
   margin-bottom: 72px;
 }
 
-.portfolio-container {
-}
-
 .application-menu {
   display: flex;
   flex-wrap: wrap;
@@ -646,6 +643,11 @@ img {
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: var(--text-color);
+}
+
+.application-container {
+  position: relative;
+  overflow: hidden;
 }
 
 .application-text-hidden {
