@@ -5,6 +5,7 @@
   --light-color: #f4f4fd;
   --text-color: #434455;
   --button-color: #e7e9fc;
+  --grey-color: #8e8f99;
 }
 * {
   margin: 0;
@@ -506,6 +507,21 @@ img {
 .customers-item {
   width: calc((100% - 120px) / 6);
   height: 88px;
+}
+
+.customers-link {
+  width: 100%;
+  height: 100%;
+  border: 1px solid #8e8f99;
+  border-radius: 4px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: var(--grey-color);
+}
+
+.customers-icon {
+  fill: currentColor;
 }
 
 .customers-icon-container {
