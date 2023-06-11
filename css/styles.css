@@ -239,6 +239,8 @@ padding-bottom: 24px;
 .features-menu-item {
   gap: 24px;
   width: calc((100% - 72px) / 4);
+  background-repeat: no-repeat;
+  background-position: center;
 }
 
 .features-menu-text {
@@ -372,16 +374,20 @@ margin-bottom: 8px;
   height:40px;
   border-radius: 50%;
   background-color: #4D5AE5;
+  background-repeat: no-repeat;
+  background-position: center;
   
 }
 
 .team-menu-icons{
   display: flex;
   gap: 24px;
+  
 }
 
 .team-icon{
   fill: #ffffff;
+  
 }
 
 /**-----------------Footer------------------*/
