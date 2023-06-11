@@ -389,6 +389,11 @@ img {
   justify-content: center;
 }
 
+.team-menu-link:hover,
+:focus {
+  background-color: #404bbf;
+}
+
 .team-menu-icon {
   width: 40px;
   height: 40px;
