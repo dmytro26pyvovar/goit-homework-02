@@ -741,19 +741,19 @@ img {
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: var(--text-color);
-  width: 100%;
-  height: 100%;
   transform: translateY(100%);
 }
 
 .application-container {
   position: relative;
   overflow: hidden;
+  width: 100%;
+  height: 100%;
 }
 
 .application-text-hidden {
-  height: 100%;
   width: 100%;
+  height: 100%;
   position: absolute;
   top: 0;
   font-size: 16px;
