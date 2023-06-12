@@ -731,9 +731,16 @@ img {
   transform: translateY(100%);
 }
 
-.application-container {
+.application-hidden-container {
   position: relative;
   overflow: hidden;
+}
+
+.application-container {
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  padding: 32px 16px;
 }
 
 .application-text-hidden {
