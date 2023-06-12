@@ -390,8 +390,7 @@ img {
   transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.team-menu-link:hover,
-.team-menu-link:focus {
+.team-menu-link:hover .team-icon .team-menu-link:focus .team-icon {
   background-color: #404bbf;
 }
 
