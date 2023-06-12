@@ -749,8 +749,6 @@ img {
 .application-container {
   position: relative;
   overflow: hidden;
-  width: 360px;
-  height: 420px;
 }
 
 .application-text-hidden {
