@@ -353,19 +353,12 @@ img {
   line-height: 1.2;
   letter-spacing: 0.02em;
   color: var(--black-color);
-  padding: 32px 65px 64px 65px;
   text-align: center;
   margin-bottom: 8px;
 }
 
 .worker-container {
   padding: 32px 0px;
-  width: 232px;
-  height: 40px;
-  display: flex;
-  flex-direction: row;
-  justify-content: center;
-  align-items: center;
 }
 .team-menu-text {
   font-family: "Roboto", sans-serif;
@@ -375,7 +368,6 @@ img {
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: #434455;
-  padding: 8px 68px 32px 68px;
   text-align: center;
 }
 
@@ -437,12 +429,6 @@ img {
   text-transform: capitalize;
   color: #2e2f42;
   margin-bottom: 72px;
-}
-
-.customers-container {
-  width: 1128px;
-  height: 88px;
-  display: flex;
 }
 
 .customers-list {
