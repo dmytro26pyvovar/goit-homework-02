@@ -575,11 +575,6 @@ img {
   fill: var(--light-color);
 }
 
-.footer-input {
-  width: 264px;
-  height: 40px;
-}
-
 /**-------------Modal Window---------------  */
 .modal-container {
   position: fixed;
