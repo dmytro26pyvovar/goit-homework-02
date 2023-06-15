@@ -718,7 +718,6 @@ img {
   height: 40px;
   border: 1px solid rgba(46, 47, 66, 0.4);
   border-radius: 4px;
-  margin-top: 34px;
   background-color: transparent;
   padding-left: 38px;
   outline: transparent;
@@ -814,7 +813,7 @@ img {
   color: var(--grey-color);
 }
 
-.input-checkbox:checked + .input-checkbox span {
+.input-checkbox:checked + .label-checkbox span {
   background-color: var(--bl-color);
   border: none;
   fill: var(--light-color);
