@@ -6,6 +6,7 @@
   --text-color: #434455;
   --button-color: #e7e9fc;
   --grey-color: #8e8f99;
+  --bl-color: #404bbf;
 }
 * {
   margin: 0;
@@ -813,7 +814,13 @@ img {
   color: var(--grey-color);
 }
 
-.label-checkbox-span {
+.input-checkbox:checked + .input-checkbox-span {
+  background-color: var(--bl-color);
+  border: none;
+  fill: var(--light-color);
+}
+
+.input-checkbox-span {
   width: 16px;
   height: 16px;
   border: 1px solid rgba(46, 47, 66, 0.4);
