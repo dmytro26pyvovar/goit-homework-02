@@ -575,6 +575,11 @@ img {
   fill: var(--light-color);
 }
 
+.footer-form {
+  display: flex;
+  gap: 24px;
+}
+
 .input-footer {
   width: 264px;
   height: 40px;
@@ -584,21 +589,26 @@ img {
 }
 
 .footer-subscribe-btn {
-  width: 165px;
+  min-width: 165px;
   height: 40px;
-  background: #4d5ae5;
-  border-radius: 4px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
   font-family: "Roboto", sans-serif;
-  font-style: normal;
-  font-weight: 500;
   font-size: 16px;
+  font-weight: 500;
   line-height: 1.5;
   letter-spacing: 0.04em;
-  color: var(--white-color);
+  color: #ffffff;
+  cursor: pointer;
+  background-color: #4d5ae5;
+  border: none;
+  border: 4px;
 }
 
 .footer-subscribe-btn-icon {
   fill: #ffffff;
+  margin-left: 16px;
 }
 
 .footer-wrap {
@@ -606,33 +616,22 @@ img {
   gap: 24px;
 }
 
-.checkbox-container {
-  margin-bottom: 24px;
-}
-
-.label-checkbox {
+.input-footer {
+  width: 264px;
+  height: 40px;
+  border: 1px solid #ffffff;
+  background-color: transparent;
   font-size: 12px;
-  line-height: 1.17;
+  line-height: 1.5;
   letter-spacing: 0.04em;
-  color: var(--grey-color);
+  padding-left: 16px;
+  filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15));
+  border-radius: 4px;
+  color: #ffffff;
 }
 
-.label-checkbox-span {
-  width: 16px;
-  height: 16px;
-  border: 1px solid rgba(46, 47, 66, 0.4);
-  border-radius: 2px;
-  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1),
-    border 250ms cubic-bezier(0.4, 0, 0.2, 1),
-    fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
-  display: inline-flex;
-  align-items: center;
-  justify-content: center;
-  fill: transparent;
-}
-
-.label-checkbox-link {
-  color: var(--blue-color);
+.input-footer::placeholder {
+  color: #ffffff;
 }
 
 /**-------------Modal Window---------------  */
@@ -789,6 +788,35 @@ img {
   cursor: pointer;
   border: none;
   transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.checkbox-container {
+  margin-bottom: 24px;
+}
+
+.label-checkbox {
+  font-size: 12px;
+  line-height: 1.17;
+  letter-spacing: 0.04em;
+  color: var(--grey-color);
+}
+
+.label-checkbox-span {
+  width: 16px;
+  height: 16px;
+  border: 1px solid rgba(46, 47, 66, 0.4);
+  border-radius: 2px;
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1),
+    border 250ms cubic-bezier(0.4, 0, 0.2, 1),
+    fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  fill: transparent;
+}
+
+.label-checkbox-link {
+  color: var(--blue-color);
 }
 
 /**-----------------Portfolio------------------*/
