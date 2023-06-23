@@ -156,22 +156,96 @@ img {
   color: #404bbf;
 }
 
+.open-mobil-menu {
+}
+
+.close-mobil-menu {
+  width: 24px;
+  height: 24px;
+  border-radius: 50%;
+  display: block;
+  margin-left: auto;
+}
+
+.mob-menu {
+  position: fiexd;
+  width: 100vw;
+  height: 100vh;
+  background-color: var(--white-color);
+  top: 0;
+  z-index: 2;
+  padding: 24px 24px 40px 40px;
+  color: #ffffff;
+  background-color: transparent;
+  border: 1px solid #2e2f42;
+  margin-bottom: 32px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.mob-header-menu {
+  padding-left: 40px;
+  margin-bottom: 50px;
+}
+
+.mob-header-menu-item {
+  color: #2e2f42;
+  font-size: 36px;
+  font-family: Roboto;
+  font-weight: 700;
+  line-height: 40px;
+  letter-spacing: 0.72px;
+  text-transform: capitalize;
+}
+
+.mob-header-menu-item:not(:last-child) {
+  margin-bottom: 40px;
+}
+
+.mob-header-menu-link {
+}
+
+.mob-header-adress {
+}
+
+.mob-header-contact {
+}
+
+.mob-header-contact-item {
+}
+
 /**-----------------Main Hero------------------*/
 .hero {
   padding-top: 188px;
   padding-bottom: 188px;
+}
+
+.hero-container {
   background-image: linear-gradient(
-      rgba(46, 47, 66, 0.7),
-      rgba(46, 47, 66, 0.7)
+      rgba(46, 47, 66, 0.7) 0%,
+      rgba(46, 47, 66, 0.7) 100%
     ),
-    url(../images/img-name.jpeg);
+    url(../images/img-hero-bg-mobil.jpeg);
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
   background-color: var(--black-color);
-  padding: 188px 472px 292px 472px;
+  padding: 112px 54px 240px 54px;
   max-width: 1440px;
   margin: auto;
+}
+
+@media (min-device-pixel-ratio: 2),
+  (min-resolution: 192dpi),
+  (min-resolution: 2dppx) {
+  .hero-container {
+    background-image: linear-gradient(
+        rgba(46, 47, 66, 0.7) 0%,
+        rgba(46, 47, 66, 0.7) 100%
+      ),
+      url(../images/img-hero-bg-mobil-2x.jpeg);
+  }
 }
 
 .hero-title {
@@ -203,6 +277,8 @@ img {
   margin-top: 48px;
   margin-left: 156px;
   display: block;
+  margin-left: 129px;
+  margin-right: 130px;
   transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .hero-btn:hover,
