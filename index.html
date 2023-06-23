@@ -42,6 +42,28 @@
                             111-11-11</a></li>
                 </ul>
             </address>
+            <button type="button" class="open-mobil-menu" data-menu-open>0</button>
+        </div>
+        <div class="mob-menu" data-menu>
+            <button type="button" class="close-mobil-menu" data-menu-close>X</button>
+            <ul class="mob-header-menu list">
+                <li class="mob-header-menu-item"><a class="mob-header-menu-link link" href="./index.html">Studio</a>
+                </li>
+                <li class="mob-header-menu-item"><a class="mob-header-menu-link link"
+                        href="./portfolio.html">Portfolio</a>
+                </li>
+                <li class="mob-header-menu-item"><a class="mob-header-menu-link link" href="">Contacts</a></li>
+            </ul>
+            <address class="mob-header-adress">
+                <ul class="mob-header-contact list">
+                    <li class="mob-header-contact-item"><a class="header-contact-link link"
+                            href="mailto:info@devstudio.com">info@devstudio.com</a></li>
+                    <li class="mob-header-contact-item"><a class="header-contact-link link" href="tel:+110001111111">+11
+                            (000)
+                            111-11-11</a></li>
+                </ul>
+            </address>
+
         </div>
     </header>
     <main>
@@ -124,7 +146,8 @@
                 <h2 class="team-title">Our Team</h2>
 
                 <ul class=" team-menu list">
-                    <li class="team-menu-item"><img src="./images/img4.jpg" alt="Teammate1" width="264">
+                    <li class="team-menu-item"><img srcset="./images/img4.jpg 1x, ./images/img4-2x.jpg 2x"
+                            src="./images/img4.jpg" alt="Teammate1" width="264">
                         <div class="container worker-container">
                             <h3 class="team-subtitle">Mark Guerrero</h3>
 
@@ -167,7 +190,8 @@
 
                     </li>
 
-                    <li class="team-menu-item"><img src="./images/img5.jpg" alt="Teammate2" width="264">
+                    <li class="team-menu-item"><img srcset="./images/img5.jpg 1x, ./images/img5-2x.jpg 2x"
+                            src="./images/img5.jpg" alt="Teammate2" width="264">
                         <div class="container worker-container">
                             <h3 class="team-subtitle">Tom Ford</h3>
 
@@ -213,7 +237,8 @@
                         </div>
                     </li>
 
-                    <li class="team-menu-item"><img src="./images/img6.jpg" alt="Teammate3" width="264">
+                    <li class="team-menu-item"><img srcset="./images/img6.jpg 1x, ./images/img6-2x.jpg 2x"
+                            src="./images/img6.jpg" alt="Teammate3" width="264">
 
                         <div class="container worker-container">
                             <h3 class="team-subtitle">Camila Garcia</h3>
@@ -260,7 +285,8 @@
                         </div>
                     </li>
 
-                    <li class="team-menu-item"><img src="./images/img7.jpg" alt="Teammate4" width="264">
+                    <li class="team-menu-item"><img srcset="./images/img7.jpg 1x, ./images/img7-2x.jpg 2x"
+                            src="./images/img7.jpg" alt="Teammate4" width="264">
 
                         <div class="container worker-container">
                             <h3 class="team-subtitle">Daniel Wilson</h3>
@@ -496,7 +522,7 @@
 
     </div>
     <script src="./js/modal.js"></script>
-    <script src="./js/mobile-menu.js"></script>
+    <script src="./js/menu.js"></script>
 </body>
 
 </html>
